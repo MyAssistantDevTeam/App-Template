@@ -10,14 +10,14 @@ namespace App_Template
     public class App : app
     {
         /*
-         * the method that is called when the app is loaded it must retern this; 
+         * the method that is called when the app is loaded it must return this; 
          */
 
         public override app LoadApp()
         {
             /*
              * this method adds the OnWordDectectedEvent hi to this app
-             * the frest arg is the OnWordDectectedEvent that is regester
+             * the first arg is the OnWordDectectedEvent that is regester
              * the second arg is the Keyword it will be called on
             */
 
