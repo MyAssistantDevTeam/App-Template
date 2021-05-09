@@ -21,23 +21,23 @@ namespace App_Template
              * the second arg is the Keyword it will be called on
             */
 
-            RegesterOnWordDectectedEvent(new hi(), "hi");
+            RegesterOnWordDectectedEvent(new hi(), "hello world");
 
             /*
-             * this reterns the app to myAssistant affter all events are regeterd and is simeler to the main method in a standerd program
+             * this returns the app to MyAssistant affter all events are regeterd and is similar to the main method in a standard program
              */
 
             return this;
         }
 
         /*
-         * a class that incstends the class onWordDectectedEvent from the myAssistantDevAPI
+         * a class that extends the class onWordDectectedEvent from the myAssistantDevAPI
          */
 
         class hi : onWordDectectedEvent
         {
             /*
-             * the method from the myAssistantDevAPI that is called when the event is detected
+             * the method from the MyAssistantDevAPI that is called when the event is detected
              * the arg reslat is the string that was trigger the event
              */
 
@@ -49,7 +49,7 @@ namespace App_Template
                  * TESTING TESTING 123
                  */
 
-                Say.say("hi to you to");
+                Say.say("hello user");
             }
         }
     }
